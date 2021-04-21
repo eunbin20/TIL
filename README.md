@@ -3,7 +3,14 @@
 ---
 
 ### 개발자를 꿈꾸는 코린이의 TIL★
+
+
 [▶개발 블로그◀](https://euncoding.tistory.com/)
+
+[2021년 4월 TIL](https://github.com/stitchy11/TIL/blob/eunbin/2021_April_TIL.md)
+
+
+---
 
 <details open>
 *2021년 4월 21일 시작*
@@ -24,5 +31,3 @@
 
 아무튼, 그날그날 공부한 내용들, 새롭게 알게 된 사실들을 부지런히 작성해 볼 것이다.
 </details>
-
-[2021년 4월 TIL]
