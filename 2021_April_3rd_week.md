@@ -132,7 +132,19 @@ JSON.stringfy(arr) // "[1, 2]"
 <details open>
 <summary>2021-04-22</summary>
 <div markdown="1">
+### push() pop() shift() unshft() 모두 원본배열을  수정한다.
 
+```jsx
+var arr = [1, 2, 3]; // [1, 2, 3] → [1, 2]
+
+function foo(array) {
+  array.pop();
+}
+
+foo(arr); // 실행시 arr이 바뀐다.
+foo(arr); // 이때 arr은 [1, 2]
+```
+*원본배열을 변경하고싶지 않다면 slice를 사용해라~*
 </div>
 </details>
 
@@ -193,5 +205,19 @@ for (const element of arr) {}
 ```jsx
 for (const key in obj) {}
 ```
+</div>
+</details>
+
+
+<details open>
+<summary>2021-04-24</summary>
+<div markdown="1">
+### 코드리뷰
+
+> 꼭 변수 선언문이 함수의 제일 상단에 위치해야하는 것은 아니다.   
+함수의 코드 흐름상 early return문을 구현할 수 있다면 if문을 상단에 위치시킬수도 있다.    
+
+변수명은 구체적으로
+
 </div>
 </details>
