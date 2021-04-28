@@ -161,11 +161,12 @@ forEach(function callback(currentValue, index, array) {
   콜백함수로 화살표함수를 사용하는 경우 thisArgs는 생략된다.
 
 
-#### Object.getOwnPropertyNames 
+#### Object.getOwnPropertyNames
 
 오브젝트의 키값을 배열로 만들어 반환하는 메소드
 
 
+#### value.Object.hasOwnProperty(key)
 
 </div>
 </details>
@@ -173,6 +174,13 @@ forEach(function callback(currentValue, index, array) {
 <details open>
 <summary>2021-04-28</summary>
 <div markdown="1">
+재귀 9 문제 풀었다 재귀의 신이 되었    ...
+- array.forEach(function(item, index, array) {})
+- for ... of (문자열, 유사배열, 배열)
+- for ... in (객체)
+for (const item of collection)    
+for (let i = 0; i < 6; i++)    
+위 두 코드에서 변수 선언 키워드의 차이가 생기는 이유는 i는 반복이 실행되면서 재할당되기 때문이다.
 
 </div>
 </details>
@@ -181,6 +189,8 @@ forEach(function callback(currentValue, index, array) {
 <details open>
 <summary>2021-04-29</summary>
 <div markdown="1">
+- Array.prototype.split
+- Array.prototype.slice
 
 </div>
 </details>
