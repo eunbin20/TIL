@@ -197,14 +197,62 @@ for (let i = 0; i < 6; i++)
 - Array.prototype.slice
 
 #### 자꾸만~~ 헷갈리는~~ 함수 띄어쓰기
+`space-before-function-paren`,  `space-before-blocks`
+
+
 1) 기명함수 선언문
 `function foo() {}`
 
-2) 무명함수 선언문
+2) 무명함수 선언문(무명함수를 써야하는 경우 화살표함수를 써라!)
 `function () {}`
 
+- 갑자기 찾아본 에어비앤비 코드스타일
+
+*화살표함수를 사용할 수 있는 부분에서는 적극 사용해라*
+
+*arguments 쓰지마라. arguments는 배열도 아니고 객체도 아닌 유사배열*
+
+*인자에 대한 기본값은 함수 안에서 지정하기보단 default parameter를 사용해라*
+*단, 기본값에 변형을 주는 건 지양*
+*default parameter는 항상 마지막에 위치*
+```jsx
+// still bad
+function handleThings(opts) {
+  if (opts === void 0) {
+    opts = {};
+  }
+  // ...
+}
+
+var b = 1;
+// bad
+function count(a = b++) {
+  console.log(a);
+}
+// good
+function handleThings(opts = {}) {
+  // ...
+}
+```
+*인자를 직접 변형하지마라. 사용할 땐 변수에 담아 그 변수를 사용 - 원본 호출에 대해 원치 않는 결과 초래*
+
+### b = a || 1;
+**||는 첫 번째 true를 찾는 연산자**
+#### : a가 존재하면 b = a;
+#### : a가 없으면 b = 1;
+
+#### 배열 내부 순회 함수 map, forEach 차이점
+
+- `arr.map(callback, thisArg)` : 배열 각각 엘리먼트를 순회하며 함수를 실행하고 그 결과값을 새로운 배열에 담아 반환한다.   
+thisArg는 콜백함수를 실행할 this값.
+
+- `arr.forEach(callback, thisArg)` : 배열 각각의 엘리먼트를 순회하며 함수를 실행한다. 특정한 반환값은 없다.(undefined)
 
 
+*콜백함수가 화살표함수면..?*
+-> thisArg는 무시하고 this값을 찾으러 스코프 밖으로 나간다.
+
+`function callback(curentValue, index, array) {}`
 
 
 </details>

@@ -95,8 +95,8 @@ array.slice(-1) : 배열의 마지막부터 1만큼 반환(start값이 배열의
  typeof (배열) : object   
  typeof null : object   
  typeof Nan : number   
- * 객체만 판별할 때 : (객체).toString === "[object Object]"   
- * 배열 판별할 때 : Array.inArray(배열)   
+ *객체만 판별할 때 : (객체).toString === "[object Object]"*
+ *배열 판별할 때 : Array.inArray(배열)*   
 
 ### 3) 객체 요소 순회   
  for (const key in object) -> key 변수는 재할당되지 않는다.   
