@@ -12,4 +12,4 @@
 - 6, 7, 8주차 과제 코드리뷰 복습
 - 재귀, 비동기, 프로토타입, this, 클로저
 
-▶[4월 셋째주 TIL](https://github.com/stitchy11/TIL/blob/eunbin/2021_April_4rd_week.md)
+▶[4월 넷째주 TIL](https://github.com/stitchy11/TIL/blob/eunbin/2021_April_4rd_week.md)
