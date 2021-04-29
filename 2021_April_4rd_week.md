@@ -7,7 +7,7 @@
 
 <details open>
 <summary>2021-04-26</summary>
-<div markdown="1">
+
 1. fromPairs 메소드
 key,value가 있는 배열을 인자로 받아 key-value로 구성된 객체를 반환
 
@@ -36,7 +36,7 @@ key,value가 있는 배열을 인자로 받아 key-value로 구성된 객체를 
 
 
 
-```
+```jsx
 // 1. <조건문> <조건문이 거짓일 때 실행될 코드>
 
 tasks.length || finalCallback(results)
@@ -54,12 +54,11 @@ array안에서 정렬시에 value가 들어가야 할 가장 작은 인덱스 �
 앞에서 빼는거 shift()
 
 
-</div>
+
 </details>
 
 <details open>
 <summary>2021-04-27</summary>
-<div markdown="1">
 #### function.length
 함수의 인자로 사용되어야하는 인자의 개수
 ```
@@ -168,12 +167,12 @@ forEach(function callback(currentValue, index, array) {
 
 #### value.Object.hasOwnProperty(key)
 
-</div>
+
 </details>
 
 <details open>
 <summary>2021-04-28</summary>
-<div markdown="1">
+
 재귀 9 문제 풀었다 재귀의 신이 되었    ...
 - array.forEach(function(item, index, array) {})
 - for ... of (문자열, 유사배열, 배열)
@@ -188,30 +187,40 @@ for (let i = 0; i < 6; i++)
 
 <details open>
 <summary>2021-04-29</summary>
-<div markdown="1">
+
 - Array.prototype.split
 - Array.prototype.slice
 
-</div>
+### 자꾸만 헷갈리는 함수 띄어쓰기
+1) 기명함수 선언문
+`function foo() {}`
+
+2) 무명함수 선언문
+`function () {}`
+
+
+
+
+
 </details>
 
 <details open>
 <summary>2021-04-30</summary>
-<div markdown="1">
+
 
 </div>
 </details>
 
 <details open>
 <summary>2021-05-01</summary>
-<div markdown="1">
 
-</div>
+
+
 </details>
 
 <details open>
 <summary>2021-05-02</summary>
-<div markdown="1">
 
-</div>
+
+
 </details>

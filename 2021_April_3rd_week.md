@@ -7,7 +7,6 @@
 
 <details open>
 <summary>2021-04-19</summary>
-<div markdown="1">
 
 ### 웹 기본 개념
 서버와 클라이언트는 서로 정보를 주고받는다.
@@ -27,12 +26,12 @@ ex) www.naver.com
 서버와 클라이언트가 정보를 주고받을 때 지켜야 하는 일련의 규칙이 있다.
 - HTTP(Hypertext Transfer Protocol)
 HTTP Request / HTTP Response
-</div>
+
 </details>
 
 <details open>
 <summary>2021-04-20</summary>
-<div markdown="1">
+
 
 ### 비동기
 
@@ -76,12 +75,12 @@ setTimeout 함수는 web API가 담당하는 함수로 webAPI에서는 0초가 �
 
 즉 setTimeout은 사실 정확히 00초 뒤에 콜백함수를 실행하는 것이 보장되지 않는다. <i>실행에 걸리는 최소한의 시간<i/>만을 정할 수 있다.   
 
-</div>
+
 </details>
 
 <details open>
 <summary>2021-04-21</summary>
-<div markdown="1">
+
 ### 1) Array.prototype.slice(a, b)메소드   
 
 
@@ -126,12 +125,11 @@ JSON.stringfy(arr) // "[1, 2]"
 
 
 
-</div>
+
 </details>
 
 <details open>
 <summary>2021-04-22</summary>
-<div markdown="1">
 ### push() pop() shift() unshft() 모두 원본배열을  수정한다.
 
 ```jsx
@@ -145,12 +143,12 @@ foo(arr); // 실행시 arr이 바뀐다.
 foo(arr); // 이때 arr은 [1, 2]
 ```
 *원본배열을 변경하고싶지 않다면 slice를 사용해라~*
-</div>
+
 </details>
 
 <details open>
 <summary>2021-04-23</summary>
-<div markdown="1">
+
 ### Diffrernce between return and break statment
 
 
@@ -205,13 +203,13 @@ for (const element of arr) {}
 ```jsx
 for (const key in obj) {}
 ```
-</div>
+
 </details>
 
 
 <details open>
 <summary>2021-04-24</summary>
-<div markdown="1">
+
 ### 코드리뷰
 
 > 꼭 변수 선언문이 함수의 제일 상단에 위치해야하는 것은 아니다.   
@@ -221,12 +219,12 @@ for (const key in obj) {}
 
 함수의 마지막코드면 return문은 생략해도 좋다.
 
-</div>
+
 </details>
 
 <details open>
 <summary>2021-04-25</summary>
-<div markdown="1">
+
 ### setTimeout   
 callback함수를 주어진 시간밀리초 이후에 실행   
 webAPI에서 시간을 세고 콜백큐에 줄을 세운다.   
@@ -248,8 +246,8 @@ debounce는 연속적으로 호출되는 함수에 대하여 마지막 함수가
 마지막 함수가 호출되고 나서 wait동안 함수가 또 다시 호출되지 않으면 그때 func함수를 실행한다.
 leading옵션: imediate와 같은 의미라고 할 수 있다. leading옵션을 true로 설정하면 첫번째 함수가 실행된 즉시 실행된다.   
 즉 마지막 함수에 의한 호출이 아닌 첫 번째 함수에 의한 호출이라는건데 관련 문서를 보면 첫 번째 함수가 실행되고 나서 wait가 지난 이후에 실행되는것도 아니고  첫 번째 실행과 함께 콜백이 실행된다.
-leading과 trailing옵션에 대해 좀 더 조사해봐야한다. 
+leading과 trailing옵션에 대해 좀 더 조사해봐야한다.
 
 
-</div>
+
 </details>
