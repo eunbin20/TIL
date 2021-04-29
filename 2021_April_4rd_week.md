@@ -59,9 +59,7 @@ array안에서 정렬시에 value가 들어가야 할 가장 작은 인덱스 �
 
 <details open>
 <summary>2021-04-27</summary>
-#### function.length
-
-함수의 인자로 사용되어야하는 인자의 개수
+#### function.length : 함수의 인자로 사용되어야하는 인자의 개수
 
 
 ```jsx
@@ -75,8 +73,7 @@ console.log(func2.length); // 2
 ```
 
 
-#### slice.call
-배열을 하나하나로 쪼개기
+#### slice.call : 배열을 하나하나로 쪼개기
 
 
 ```jsx
