@@ -60,6 +60,7 @@ array안에서 정렬시에 value가 들어가야 할 가장 작은 인덱스 �
 <details open>
 <summary>2021-04-27</summary>
 #### function.length
+
 함수의 인자로 사용되어야하는 인자의 개수
 
 
@@ -71,17 +72,17 @@ function func2(a, b) {}
 console.log(func1.length); // 0
 
 console.log(func2.length); // 2
-
 ```
 
-#### 배열을 하나하나로 쪼개기
+
+#### slice.call
+배열을 하나하나로 쪼개기
 
 
 ```jsx
 arr = [1, 2, 3, 4, 5]
 
 items = Array.prototype.slice.call(arr);
-
 ```
 
 1. bind
@@ -197,7 +198,7 @@ for (let i = 0; i < 6; i++)
 - Array.prototype.split
 - Array.prototype.slice
 
-### 자꾸만 헷갈리는 함수 띄어쓰기
+#### 자꾸만~~ 헷갈리는~~ 함수 띄어쓰기
 1) 기명함수 선언문
 `function foo() {}`
 
