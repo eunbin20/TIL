@@ -61,6 +61,8 @@ array안에서 정렬시에 value가 들어가야 할 가장 작은 인덱스 �
 <summary>2021-04-27</summary>
 #### function.length
 함수의 인자로 사용되어야하는 인자의 개수
+
+
 ```jsx
 function func1() {}
 
@@ -73,6 +75,8 @@ console.log(func2.length); // 2
 ```
 
 #### 배열을 하나하나로 쪼개기
+
+
 ```jsx
 arr = [1, 2, 3, 4, 5]
 
@@ -103,6 +107,8 @@ js는 원시값이 필요한 객체를 만나면 자동적으로 실행한다.
 
 
 유사배열객체(문자)를 배열로 바꾸는 데 사용할 수 있는 메서드
+
+
 ```jsx
 var str = "apple";
 Array.from(str); // ["a", "p", "p", "l", "e"]
