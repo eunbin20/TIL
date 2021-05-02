@@ -259,17 +259,53 @@ thisArg는 콜백함수를 실행할 this값.
 
 <details open>
 <summary>2021-04-30</summary>
+
+
 #### Object.prototype.assign() vs Object.prototype.merge()
 - 공통점: 모두 객체에서만 작동하는 객체 메소드   둘 다 대상 객체가 변경   뒤에 있는 동일한 속성을 가진 다른 객체에 의해 overwrite
 
 - assign - 자식객체까지 깊은 병합. own 속성, enumerable 속성만 가능   
 - merge - 1 depth까지만 병합
 
+```jsx
+function merge(object, source) {
+  if (source.toString() === "[object Object]") {
+    for (var key in source) {
+      if (typeof source[key] === "object") {
+        merge(object[key], source[key]);
+      } else {
+        object[key] = source[key];
+      }
+    }
+  } else if (Array.isArray(source)) {
+    for (let i = 0; i < source.length; i++) {
+      if (typeof source[i] === "object") {
+        merge(object[i], source[i]);
+      } else {
+        object[i] = source[i];
+      }
+    }
+  }
 
+  return object;
+}
+
+var object = {
+  'a': [{ 'b': 2 }, { 'd': 4 }]
+};
+
+var other = {
+  'a': [{ 'c': 3 }, { 'e': 5 }]
+};
+
+merge(object, other);
+```
+_.merge 구현 완성했다 아 행복해~~
 
 </details>
 
 <details open>
+어드미션 코딩 테스...
 <summary>2021-05-01</summary>
 
 
