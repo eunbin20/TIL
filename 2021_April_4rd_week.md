@@ -305,7 +305,7 @@ _.merge 구현 완성했다 아 행복해~~
 </details>
 
 <details open>
-어드미션 코딩 테스...
+어드미션 코딩 테스트...
 <summary>2021-05-01</summary>
 
 
