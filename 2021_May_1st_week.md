@@ -3,6 +3,7 @@
 
 ---------------------------------------
 ## W.W.T.D (What to Wear ToDay)
+## 정보처리기사 필기 공부
 
 
 <details open>
@@ -26,4 +27,5 @@ WWTD 레이아웃 만들기
 
 <details open>
 <summary>2021-05-08</summary>
+정보처리기사 4. 프로그래밍언어 활용, 5. 정보시스템 구축관리
 </details>
