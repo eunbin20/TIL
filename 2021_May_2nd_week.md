@@ -39,7 +39,7 @@
 
 <details open>
 <summary>2021-05-15</summary>
-
+정보처리기사 시험
 </details>
 
 <details open>
