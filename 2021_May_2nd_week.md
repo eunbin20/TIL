@@ -44,7 +44,12 @@ OSI 7계층
 
 <details open>
 <summary>2021-05-14</summary>
-정처기 마지막 정리
+정처기 마지막 정리   
+
+물 데 네 전 세 표 응   
+결합도 자 스 제 외 공 내
+응집도 기 순 교 절 시 논 우
+정규화 도 부 이 결 다 줘?
 </details>
 
 <details open>
