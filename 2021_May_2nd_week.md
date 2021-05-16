@@ -5,26 +5,12 @@
 ## - W.W.T.D (What to Wear ToDay)
 ## - 정보처리기사 필기 공부
 
-<details open>
-<summary>2021-05-09</summary>
 
-</details>
-
-<details open>
-<summary>2021-05-10</summary>
-
-
-</details>
-
-
-<details open>
-<summary>2021-05-11</summary>
-
-</details>
 
 <details open>
 <summary>2021-05-12</summary>
-OSI 7계층   
+OSI 7계층
+
 1. 물리계층: 물리적 전송매체와 전송 신호 방식 정의
 2. 데이터링크 계층: 신뢰성있고 효율적인 정보 전달을 위해 흐름 제어, 동기화, 오류제어 순서 제어
 3. 네트워크 계층: 경로 설정, 데이터 교환 및 중계, 트래픽 제어, 패킷 정보 전송(라우터)
@@ -35,11 +21,6 @@ OSI 7계층
 
 
 물 -> 데 ->  네 -> 전 -> 세 -> 표 -> 응
-</details>
-
-<details open>
-<summary>2021-05-13</summary>
-정보처리기사 2020년도 3회 기출문제 풀기
 </details>
 
 <details open>
@@ -54,10 +35,13 @@ OSI 7계층
 
 <details open>
 <summary>2021-05-15</summary>
-정보처리기사 시험
+정보처리기사 시험  
+WWTD 레이아웃 수정
+
 </details>
 
 <details open>
 <summary>2021-05-16</summary>
-
+WWTD 레이아웃 수정
+WWTD 옷장 만들기..
 </details>
