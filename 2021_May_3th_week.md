@@ -19,7 +19,7 @@
 <details open>
 <summary>2021-05-19</summary>
 closet 내부에 cloth가 closet의 범위를 벗어나는 경우 overflow: scroll;   
-내일은 이것을 슬라이들로 바꾸는 방법을 생각해보자
+내일은 이것을 슬라이드로 바꾸는 방법을 생각해보자
 </details>
 
 <details open>
