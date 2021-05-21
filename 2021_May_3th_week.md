@@ -29,6 +29,7 @@ closet 내부에 cloth가 closet의 범위를 벗어나는 경우 overflow: scro
 
 <details open>
 <summary>2021-05-21</summary>
+WWTD - 슬라이드 구현
 </details>
 
 <details open>
