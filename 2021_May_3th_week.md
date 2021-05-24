@@ -1,19 +1,8 @@
-til# 2021년 5월 둘째주 TIL
+# 2021년 5월 둘째주 TIL
 오늘 내가 배운 것들(Today I Learned)
 
 ---------------------------------------
 ## - W.W.T.D (What to Wear ToDay)
-
-<details open>
-<summary>2021-05-17</summary>
-
-</details>
-
-<details open>
-<summary>2021-05-18</summary>
-
-
-</details>
 
 
 <details open>
@@ -26,21 +15,11 @@ til# 2021년 5월 둘째주 TIL
 </details>
 
 <details open>
-<summary>2021-05-20</summary>
-
-</details>
-
-<details open>
 <summary>2021-05-21</summary>
 
 #### WWTD
 
 - 슬라이드 구현
-</details>
-
-<details open>
-<summary>2021-05-22</summary>
-
 </details>
 
 <details open>
@@ -55,5 +34,3 @@ til# 2021년 5월 둘째주 TIL
 - 자바 환경 설정(jdk 설치, vscode 익스텐션 설치, 환경변수 설정)
 
 </details>
-
-<details open>
