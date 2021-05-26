@@ -20,7 +20,7 @@
 
 #### 알고리즘
 
-- 모의고사
+- 모의고사 + 블로그 포스팅
 
 #### WWTD
 
@@ -29,6 +29,7 @@
 #### 스터디
 
 - react, promise, async/await
+- promise sample code (망고스무디 만들기~)
 </details>
 
 <details open>
@@ -39,6 +40,10 @@
 - Values, Types, and Operators
 Program Structure
 Functions
+
+#### WWTD
+- express, mongoDB 환경 세팅
+
 </details>
 
 <details open>
