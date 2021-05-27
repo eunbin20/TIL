@@ -48,11 +48,22 @@ Functions
 
 <details open>
 <summary>2021-05-27</summary>
-
 </details>
 
 <details open>
 <summary>2021-05-28</summary>
+
+#### 알고리즘
+신규아이디 추천 + 블로그 포스팅
+
+https://euncoding.tistory.com/36
+
+#### 무엇을 준비하면 좋을까요
+promise 블로그 포스팅
+
+https://euncoding.tistory.com/37
+
+
 
 </details>
 
