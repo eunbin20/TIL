@@ -69,6 +69,8 @@ https://euncoding.tistory.com/37
 
 <details open>
 <summary>2021-05-29</summary>
+#### 알고리즘
+내적 구하기
 
 </details>
 
