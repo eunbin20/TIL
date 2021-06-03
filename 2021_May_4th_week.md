@@ -69,6 +69,15 @@ https://euncoding.tistory.com/37
 
 <details open>
 <summary>2021-05-29</summary>
+
+#### 붙캠 대비 공부
+
+- 자료구조
+  - Stack & Queue
+  - Linked List
+  - Tree & Binary Search Tree
+  - Hash Table
+
 #### 알고리즘
 내적 구하기 블로그 포스팅
 

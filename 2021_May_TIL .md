@@ -9,7 +9,7 @@
 ---------------------------------------
 ### [5.10 - 5.16]
 
-▶[5월 둘째주 TIL](https://github.com/stitchy11/TIL/blob/eunbin/2021_May_3th_week.md)
+▶[5월 둘째주 TIL](https://github.com/stitchy11/TIL/blob/eunbin/2021_May_2nd_week.md)
 
 ---------------------------------------
 ### [5.17 - 5.23]
@@ -19,4 +19,4 @@
 ---------------------------------------
 ### [5.24 - 5.30]
 
-▶[4월 넷째주 TIL]
+▶[5월 넷째주 TIL](https://github.com/stitchy11/TIL/blob/eunbin/2021_May_4th_week.md)
