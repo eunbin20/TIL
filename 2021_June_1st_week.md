@@ -49,11 +49,15 @@
 
 #### WWTD Project
 
--
+- 리액트, express 연동
+- Closet, Cloth 컴포넌트 생성
+- event.preventDefault
+  submit태그는 form안의 데이터를 전송하는 동작을 수행한다. event.preventDefault메소드는 그 동작을 중단시킨다.
+- multer 모듈 : 사용자가 업로드한 파일을 서버 컴퓨터의 원하는 디렉토리에 저장하는 기능 제공
 
 #### 알고리즘
 
--
+- 완주하지 못한 선수
 
 #### 붙캠 대비 공부
 
@@ -68,11 +72,18 @@
 
 #### WWTD Project
 
--
+- nodeJS : 브라우저가 아닌 상황에서 js코드를 실행할 수 있게 하는 js런타임
+- react + express + mongoDB
+- 이미지 업로드를 위한 패키지 다운로드
+  - multer : 사용자강 버로드한 파일을 서버로 보내는 데 필요한 미들웨어(multipart/form-data에서만 동작)
+  - axios
+  - cors
+
+- 이미지 업로드 방법 : 사용자가 이미지를 업로드하면(onChange), state에 저장(rerendering)
 
 #### 알고리즘
 
--
+- 로또의 최고순위와 최저순위
 
 #### 붙캠 대비 공부
 
