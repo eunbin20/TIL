@@ -79,15 +79,13 @@
   - axios
   - cors
 
-- 이미지 업로드 방법 : 사용자가 이미지를 업로드하면(onChange), state에 저장(rerendering)
+- 이미지 업로드 방법 : 사용자가 이미지를 업로드하면(onChange), state에 저장(rerendering)해서 미리보기 이미지 띄워주기 -> 완료(submit)버튼 누르면 데이터베이스로 보내기 -> 데이터베이스에서 이미지파일 불러와서 페이지에 보여주기
+
+- 라우터:
 
 #### 알고리즘
 
 - 로또의 최고순위와 최저순위
-
-#### 붙캠 대비 공부
-
--
 
 </details>
 
@@ -96,15 +94,15 @@
 
 #### WWTD Project
 
--
+- [MERN Stack](https://www.youtube.com/watch?v=7CqJlxBYj-M&t=83s) 관련 영상 클론 코딩
 
 #### 알고리즘
 
--
+- k번째 수 + 포스팅
 
 #### 붙캠 대비 공부
 
--
+- async / await
 
 </details>
 
@@ -113,13 +111,9 @@
 
 #### WWTD Project
 
--
+- 리액트와 mongoDB, express를 이용해 이미지 업로드하고 불러오기위해 노력중
 
 #### 알고리즘
-
--
-
-#### 붙캠 대비 공부
 
 -
 
