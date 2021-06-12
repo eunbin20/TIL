@@ -67,6 +67,14 @@ async 함수의 반환값이 존재하는 경우, 예를 들어 return 5; 이러
 <details open>
 <summary>2021-06-12</summary>
 
+- Big-O
+
+ 주로 시간복잡도를 나타내는 지표
+
+- async/await
+
+반환값은 무조건 프로미스 객체
+
 </details>
 
 <details open>
