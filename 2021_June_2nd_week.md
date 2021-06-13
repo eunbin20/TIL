@@ -80,4 +80,5 @@ async 함수의 반환값이 존재하는 경우, 예를 들어 return 5; 이러
 <details open>
 <summary>2021-06-13</summary>
 
+프로미스의 장점과 단점
 </details>
