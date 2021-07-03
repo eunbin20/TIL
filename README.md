@@ -20,7 +20,7 @@ _15 TILs and counting..._
 - [x_old_version(2021.03~2021.06)](#x_old_version(2021.03~2021.06))
 
 ### [vanilla-javascript](#vanilla-javascript)
-- [## First Class object](vanilla-javascript/first-class-object.md)
+- [First Class Object](vanilla-javascript/first-class-object.md)
 
 ### [x_old_version(2021.03~2021.06)](#x_old_version(2021.03~2021.06))
 - [2021년 4월 셋째주 TIL](x_old_version(2021.03~2021.06)/2021_April_3rd_week.md)
