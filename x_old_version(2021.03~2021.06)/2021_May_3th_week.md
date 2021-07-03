@@ -1,4 +1,4 @@
-# 2021년 5월 둘째주 TIL
+# 2021년 5월 셋째주 TIL
 오늘 내가 배운 것들(Today I Learned)
 
 ---------------------------------------
@@ -10,7 +10,7 @@
 
 #### WWTD
 
-- closet 내부에 cloth가 closet의 범위를 벗어나는 경우 overflow: scroll;   
+- closet 내부에 cloth가 closet의 범위를 벗어나는 경우 overflow: scroll;
 내일은 이것을 슬라이드로 바꾸는 방법을 생각해보자
 </details>
 
