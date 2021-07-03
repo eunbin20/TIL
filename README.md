@@ -10,7 +10,7 @@ Simon Wilson님의 [TIL collection][2]을 발견하고 지금의 형식으로 ti
 이 곳에 기록하는 내용 중 다른 사람들과 공유하고싶은 내용에 대해서는 [블로그][1]에 포스팅하고있습니다.
 
 
-_15 TILs and counting..._
+_16 TILs and counting..._
 
 ---
 
@@ -21,6 +21,7 @@ _15 TILs and counting..._
 
 ### [vanilla-javascript](#vanilla-javascript)
 - [First Class Object](vanilla-javascript/first-class-object.md)
+- [Static Method](vanilla-javascript/static-method.md)
 
 ### [x_old_version(2021.03~2021.06)](#x_old_version(2021.03~2021.06))
 - [2021년 4월 셋째주 TIL](x_old_version(2021.03~2021.06)/2021_April_3rd_week.md)
