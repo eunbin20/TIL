@@ -27,15 +27,15 @@ _15 TILs and counting..._
 - [2021년 4월 넷째주 TIL](x_old_version(2021.03~2021.06)/2021_April_4rd_week.md)
 - [2021년 4월의 TIL(Today I Learned)](x_old_version(2021.03~2021.06)/2021_April_TIL.md)
 - [2021년 6월 첫째주 TIL](x_old_version(2021.03~2021.06)/2021_June_1st_week.md)
-- [2021년 6월 첫째주 TIL](x_old_version(2021.03~2021.06)/2021_June_2nd_week.md)
+- [2021년 6월 둘째주 TIL](x_old_version(2021.03~2021.06)/2021_June_2nd_week.md)
 - [2021년 6월 셋째주 TIL](x_old_version(2021.03~2021.06)/2021_June_3th_week.md)
 - [2021년 6월  넷째주 TIL](x_old_version(2021.03~2021.06)/2021_June_4th_week.md)
 - [2021년 6월  다섯째주 TIL](x_old_version(2021.03~2021.06)/2021_June_5th_week.md)
 - [2021년 6월의 TIL(Today I Learned)](x_old_version(2021.03~2021.06)/2021_June_TIL.md)
 - [2021년 5월 첫째주 TIL](x_old_version(2021.03~2021.06)/2021_May_1st_week.md)
 - [2021년 5월 둘째주 TIL](x_old_version(2021.03~2021.06)/2021_May_2nd_week.md)
-- [2021년 5월 둘째주 TIL](x_old_version(2021.03~2021.06)/2021_May_3th_week.md)
-- [2021년 5월 둘째주 TIL](x_old_version(2021.03~2021.06)/2021_May_4th_week.md)
+- [2021년 5월 셋째주 TIL](x_old_version(2021.03~2021.06)/2021_May_3th_week.md)
+- [2021년 5월 넷째주 TIL](x_old_version(2021.03~2021.06)/2021_May_4th_week.md)
 - [2021년 5월의 TIL(Today I Learned)](x_old_version(2021.03~2021.06)/2021_May_TIL .md)
 
 [1]: https://euncoding.tistory.com/
