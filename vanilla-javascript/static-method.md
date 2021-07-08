@@ -1,6 +1,6 @@
 # Static Method
 
-[➡️블로그 포스팅](https://euncoding.tistory.com/49)
+[➡️ 블로그 포스팅](https://euncoding.tistory.com/49)
 
 static method(정적 메소드)란 생성자의 프로토타입 속성에 할당되어있지 않고 클래스 자체에 직접 할당되어있는 메소드이다.
 
