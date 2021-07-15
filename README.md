@@ -21,7 +21,7 @@ _21 TILs and counting..._
 - [x_old_version(2021.03~2021.06)](#x_old_version(2021.03~2021.06))
 
 ### [react](#react)
-- [Controlled component vs Uncontrolled componentDidMount](react/controlled-and-uncontrolled-component.md)
+- [Controlled component vs Uncontrolled component](react/controlled-and-uncontrolled-component.md)
 - [React Hook](react/react-hook.md)
 - [useMemo Hook](react/useMemo-hook.md)
 - [Virtual dom](react/virtual-dom.md)
