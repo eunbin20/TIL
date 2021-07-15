@@ -1,4 +1,4 @@
-# Controlled component vs Uncontrolled componentDidMount
+# Controlled component vs Uncontrolled component
 
 - 사용자의 입력을 제어하는 방식에는 두 가지가 있다.
 
@@ -51,27 +51,27 @@ function Reservation() {
     }
 
 	render(
-		<form>
-			<label>
-				IsGoing: 
-				<input
-					name="isGoing"
-					type="checkbox"
-					checked={isGoing}
-					onChange={ev => setIsGoing(ev.current.value}
-				/>
-			</label>
-			<br />
-			<label>
-				Number of guests:
-				<input
-					name="numberOfGuests"
-					type="number"
-					value={numberOfGuests}
-					onChange={ev => setNumberOfGuests(ev.current.value}
-				/>
-			</label>
-		</form>
+    <form>
+      <label>
+        IsGoing:
+        <input
+          name="isGoing"
+          type="checkbox"
+          checked={isGoing}
+          onChange={ev => setIsGoing(ev.current.value)}
+        />
+      </label>
+      <br />
+      <label>
+        Number of guests:
+        <input
+        name="numberOfGuests"
+        type="number"
+        value={numberOfGuests}
+        onChange={ev => setNumberOfGuests(ev.current.value)}
+        />
+      </label>
+    </form>
 	);
 }
 ```
@@ -91,18 +91,18 @@ function UncotrooledComponent() {
     event.prevent.default();
     alert(`이름: ${inputEl.current.value}`);
 	}
-	
+
 	return (
-	  <form onSubmit={handleSubmit}>
-			<div>
-				<label htmlFor="username">이름</label>
-				<input
-					ref={inputEl}
-					id="username"
-					type="text"
-				/>
-			</div>
-		</form>
+    <form onSubmit={handleSubmit}>
+      <div>
+      <label htmlFor="username">이름</label>
+        <input
+          ref={inputEl}
+          id="username"
+          type="text"
+        />
+      </div>
+    </form>
 	);
 }
 ```
@@ -113,4 +113,4 @@ function UncotrooledComponent() {
 
 - 기본값 설정 → defaultValue
 
-- <input type="file">은 프로그래밍적으로(리액트 컴포넌트 내에서) 값을 설정할 수 없고 사용자만 설정할 수 있으므로 항상 비제어컴포넌트로 다루어진다.
+- `<input type="file">`은 프로그래밍적으로(리액트 컴포넌트 내에서) 값을 설정할 수 없고 사용자만 설정할 수 있으므로 항상 비제어컴포넌트로 다루어진다.
