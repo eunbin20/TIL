@@ -1,5 +1,7 @@
 # Prop types
 
+[블로그 포스팅](https://euncoding.tistory.com/50)
+
 ## React props
 
 리액트에서는 자바스크립트의 함수를 호출할 때 매개변수를 전달하는 것 처럼 데이터(숫자, 문자열, 함수, 객체, 배열 등등)를 전달할 수 있다. 
@@ -48,7 +50,7 @@ Component.propTypes = {
  - 렌더링될 수 있는 값이란 `<div>{ value }<div>` 코드를 렌더링했을 때 화면에 출력되는 value을 말한다.  
 `<div>{ true }</div>`, `<div>{ object }</div>`, `<div>{ function }</div>` 등의 값은 화면에 렌더링되지 않는다.
 
-결론
+## 결론
 
 애플리케이션이 커지고, 복잡해질수록 여러 컴포넌트들 간 props의 연결구조 또한 복잡해진다.
 
