@@ -1,1 +1,66 @@
 # Prop types
+
+props와 propTypes는 리액트 컴포넌트 사이에서 읽기 전용 속성을 전달하기 위한 중요한 매커니즘이다.
+
+property를 나타내는 react의 props는 한 컴포넌트에서 다른 컴포넌트로 데이터를 보내는 데 사용된다.
+
+만약 컴포넌트가 잘못된 타입의 props를 받으면 bug가 발생하게 되고 에러를 발생시킨다.
+
+
+자바스크립트에는 내장되어있는 타입 체크 솔루션이 없기 때문에, 많은 개발자들은 TypeScript와 Flow와 같은 extention들을 사용한다.
+
+그러나, 리액트에는 props의 유효성을 검사하기 위한 내부적인 매커니즘인 PropTypes가 있다.
+
+- 리액트의 props는 어떻게 작동하는가?
+
+리액트에서 어떤 컴포넌트 내에서 다른 컴포넌트를 호출할 때 props는 데이터(숫자, 문자열, 함수, 객체, 배열 등등)를 전달하게 해준다.
+
+한 컴포넌트에서 다른 컴포넌트로 데이터를 보낼 때, 마치 자바스크립트의 함수를 호출할 때 인자를 전달하는 것 처럼 props로 데이터를 전달할 수 있다.
+
+
+
+- props의 유효성을 검사하는 것이 왜 필요한가?
+
+어떤 함수를 실행할 때 꼭 전달받아야 하는 인자가 있는 것 처럼, 리액트의 컴포넌트에도 해당 prop을 전달받지 않으면 에러가 발생하는 경우가 있다.
+
+리액트 애플리케이션을 개발할 때도, 어떤 prop이 정의되지 않으면 적절하게 렌더링되지 않기 때문에 필수적으로 prop을 정의해야하는 경우가 있다.
+
+
+- 리액트의 PropTypes 사용하기
+
+리액트의 컴포넌트는 prop의 타입을 검사하기 위해 propTypes라는 특별한 속성을 가지고 있다.
+
+props가 리액트의 컴포넌트로 전달되면, propTypes의 속성으로 설정된 타입의 정의와 맞는지 확인한다.
+
+만약 적절하지 않은 값이 prop으로 전달되면, console에 경고메세지가 나온다.
+
+컴포넌트 내에 default props가 정의되어있다면, 해당 값은 적용되기 전에 propTypes를 통해 타입을 확인한다.
+
+즉 default props 또한 propTypes가 적용된다.
+
+```jsx
+// basic types
+
+Component.propTypes = {
+  anyProp: PropTypes.any, // 모든 값
+  booleanProp: PropTypes.bool,
+  numberProp: PropTypes.number,
+  stringProp: PropTypes.string,
+  functionProp: PRopTypes.func
+}
+
+// renderable types
+
+Component.propTypes = {
+  nodeProp: PropTypes.node, // 리액트로 렌더링될 수 있는 모든 값이 될 수 있다.
+  elementProp: PropTypes.element // prop으로 리액트 엘레멘트가 올 수도 있다.
+}
+```
+
+>>> PropType.node
+
+  PropType.node로 확인되는 값은 readerable한(렌더링될 수 있는)값이다.
+
+  렌더링될 수 있는 값이란 `<div>{ value }<div>` 코드를 렌더링했을 때 화면에 출력되는 값을 말한다.
+
+  `<div>{ true }</div>`, `<div>{ object }</div>`, `<div>{ function }</div>` 등의 값은 화면에 렌더링되지 않는다.
