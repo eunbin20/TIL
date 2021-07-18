@@ -10,7 +10,7 @@ Simon Wilson님의 [TIL collection][2]을 발견하고 지금의 형식으로 ti
 이 곳에 기록하는 내용 중 다른 사람들과 공유하고싶은 내용에 대해서는 [블로그][1]에 포스팅하고있습니다.
 
 
-_21 TILs and counting..._
+_23 TILs and counting..._
 
 ---
 
@@ -22,9 +22,11 @@ _21 TILs and counting..._
 
 ### [react](#react)
 - [Controlled component vs Uncontrolled component](react/controlled-and-uncontrolled-component.md)
+- [Prop types](react/prop-types.md)
 - [React Hook](react/react-hook.md)
 - [useMemo Hook](react/useMemo-hook.md)
 - [Virtual dom](react/virtual-dom.md)
+- [Why functional component?](react/why-functional-component.md)
 
 ### [vanilla-javascript](#vanilla-javascript)
 - [First Class Object](vanilla-javascript/first-class-object.md)
