@@ -4,7 +4,7 @@
 
 ## React props
 
-리액트에서는 자바스크립트의 함수를 호출할 때 매개변수를 전달하는 것 처럼 데이터(숫자, 문자열, 함수, 객체, 배열 등등)를 전달할 수 있다. 
+리액트에서는 자바스크립트의 함수를 호출할 때 매개변수를 전달하는 것 처럼 데이터(숫자, 문자열, 함수, 객체, 배열 등등)를 전달할 수 있다.
 
 그러나 컴포넌트가 잘못된 타입의 props를 받으면 bug가 발생하게 되고 에러가 발생해 애플리케이션이 중단된다.
 
@@ -12,7 +12,7 @@
 
 ## TypeProps
 
-리액트 애플리케이션을 개발할 때, 어떤 prop이 정의되지 않으면 적절하게 렌더링되지 않기 때문에 필수적으로 prop을 정의해야하는 경우가 있다. 
+리액트 애플리케이션을 개발할 때, 어떤 prop이 정의되지 않으면 적절하게 렌더링되지 않기 때문에 필수적으로 prop을 정의해야하는 경우가 있다.
 
 props가 리액트의 컴포넌트로 전달되면, propTypes의 속성으로 설정된 타입의 정의와 맞는지 확인하고, 적절하지 않은 값이 prop으로 전달되면, console에 경고메세지가 나온다.
 
@@ -31,17 +31,17 @@ Component.propTypes = {
   booleanProp: PropTypes.bool,
   numberProp: PropTypes.number,
   stringProp: PropTypes.string,
-  functionProp: PRopTypes.func
+  functionProp: PRopTypes.func,
 }
 
 // renderable types
 
 Component.propTypes = {
-  nodeProp: PropTypes.node, // 리액트로 렌더링될 수 있는 모든 값이 될 수 있다.
+  nodeProp: PropTypes.node,
   elementProp: PropTypes.element // prop으로 리액트 엘레멘트가 올 수도 있다.
 }
 ```
- 
+
 
 *  PropType.node에는 리액트로 렌더링될 수 있는 모든 값이 될 수 있다.
 
@@ -61,5 +61,4 @@ Component.propTypes = {
 
 그래서 해당 컴포넌트 안에서 props로 받은 값이 어떤 값인지, 꼭 필요한 값인지 아닌지에 대해 명확히 정의할 필요성이 생기게 된다.
 
-props는 해당 컴포넌트가 다른 컴포넌트에 의존해있는 부분이라고 볼 수 있다. 이러한 부분을 명확히 정의함으로써 해당 컴포넌트 내에서의 작업에 더 집중할 수 있게 되는 것 같다. 
-
+props는 해당 컴포넌트가 다른 컴포넌트에 의존해있는 부분이라고 볼 수 있다. 이러한 부분을 명확히 정의함으로써 해당 컴포넌트 내에서의 작업에 더 집중할 수 있게 되는 것 같다.
