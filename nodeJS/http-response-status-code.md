@@ -6,6 +6,39 @@
 
 <br/>
 
+<details>
+<summary>내가 사용해본 상태코드</summary>
+
+- 201 : Created
+  사용자가 로그인에 성공하여 User DB에 사용자의 정보가 성공적으로 저장된 경우
+
+- 400 : Bad request(유효성 검증)
+  사용자의 요청에서 무언가 잘못되었을 때 발생하는 에러로 구체적으로 무엇이 잘못되어 오류가 발생했는지 구체적으로 명시해주는 것이 좋다.
+  사용자가 잘못된 url로 접근한 경우
+
+- 401 : Unauthorized
+  로그인되지 않은 사용자가 접근하려한 경우
+
+- 404 Not Found
+```jsx
+router.post("/:problem_id", async (req, res, next) => {
+  const problem_id = req.params.problem_id;
+  const problem = await Problem.findById(problem_id);
+
+  if (!problem) {
+    nest(createError(404, "No Problem by id"))
+  }
+});
+```
+
+- 500 : Internal server error
+  사용자에게 전달하는 서버 관련 에러는 모두 Internal server error.
+
+
+
+
+</details>
+
 <hr/>
 
 ## 1xx : 조건부 응답
@@ -79,9 +112,11 @@
 
 - 301 : Moved Permanently
 
-  요청한 리소스의 URI가 변경되었음을 의미. 새로운 URI가 응답에서 주어질 수 있다.
+  요청한 리소스의 URI가 **영구적으로** 변경되었음을 의미. 새로운 URI가 응답에서 주어질 수 있다.
 
-- 302 : 요청한 리소스의 URI가 일시적으로 변경되었음을 의미. 새롭게 변경된 URI는 나중에 만들어질 수 있으므로 클라이언트는 향후의 요청도 반드시 동일한 URI로 해야함
+- 302 : Found
+
+요청한 리소스의 URI가 **일시적**으로 변경되었음을 의미. 새롭게 변경된 URI는 나중에 만들어질 수 있으므로 클라이언트는 향후의 요청도 반드시 동일한 URI로 해야함
 
 - 303 : See Other
 
