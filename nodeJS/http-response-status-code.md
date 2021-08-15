@@ -12,14 +12,29 @@
 - 201 : Created
   사용자가 로그인에 성공하여 User DB에 사용자의 정보가 성공적으로 저장된 경우
 
+- 301 : Permanently moved
+  일반적인 redirection.
+  웹페이지를 영구적으로 이동할 경우 사용된다.
+
+- 302 : Found
+  (res.redirect()메소드의 기본 상태 코드)
+
+\* 301, 302 코드의 차이는 검색엔진이 크롤링하는 페이지에서 차이가 난다. 사용자가 A라는 코드를 요청했는데 301 코드를 사용해 B 페이지를 redirect하는 경우 검색엔진 크롤링에서는 B 페이지에 대한 수집을 하지만 302코드로 리다이렉션을 하는 경우 여전히 A 페이지에 대한 수집을 할 것이다.
+
 - 400 : Bad request(유효성 검증)
   사용자의 요청에서 무언가 잘못되었을 때 발생하는 에러로 구체적으로 무엇이 잘못되어 오류가 발생했는지 구체적으로 명시해주는 것이 좋다.
-  사용자가 잘못된 url로 접근한 경우
 
 - 401 : Unauthorized
   로그인되지 않은 사용자가 접근하려한 경우
 
 - 404 Not Found
+  사용자가 잘못된 url로 접근한 경우
+  *API에서 종점은 적절하지만 리소스 자체는 존재하지 않음을 의미할 수도 있습니다.*
+
+  서버에서 req.params.id로 받은 아이디를 이용해 해당 아이디의 정보를 데이터베이스에서 받아오려한다.
+  이때 데이터베이스에 이 id와 일치하는 데이터가 없으면 404에러.
+
+
 ```jsx
 router.post("/:problem_id", async (req, res, next) => {
   const problem_id = req.params.problem_id;
@@ -33,8 +48,6 @@ router.post("/:problem_id", async (req, res, next) => {
 
 - 500 : Internal server error
   사용자에게 전달하는 서버 관련 에러는 모두 Internal server error.
-
-
 
 
 </details>
