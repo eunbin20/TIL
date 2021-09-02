@@ -9,8 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out repo
-      uses: actions/checkout@v2
+    - name: TIL Auto-Format README
+      uses: cflynn07/github-action-til-autoformat-readme@1.2.0
       with:
         # necessary for github-action-til-autoformat-readme
         token: ${{ secrets.GITHUB_TOKEN }}
