@@ -10,9 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repo
-      uses: actions/checkout@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
+      uses: actions/checkout@v2
       with:
         # necessary for github-action-til-autoformat-readme
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
     - name: Autoformat README
       uses: cflynn07/github-action-til-autoformat-readme@1.1.0
